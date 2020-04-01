@@ -27,8 +27,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Setup NodeJS
       uses: nodenv/actions-setup-nodenv@v2.0.4
-      with:
-        nodenv-version: ${{matrix.node-version}}
     - name: Install Packages and Build
       run: |
         npm install
