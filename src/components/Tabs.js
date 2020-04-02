@@ -82,6 +82,7 @@ class Tabs extends React.Component {
 
   clickHandler = event => {
     const hash = event.currentTarget.dataset.href;
+    window.gtag("event", "tab-click", { hash });
     this.setState({
       currentHash: hash
     });
