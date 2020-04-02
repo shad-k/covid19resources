@@ -17,7 +17,8 @@ const Main = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  padding: 0px 50px;
+  padding: 0px 20px;
+  text-align: center;
 
   @media screen and (min-width: 768px) {
     background-image: ${`url(${bg})`};

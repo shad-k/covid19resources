@@ -8,6 +8,9 @@ const Main = styled.header`
   font-size: 26px;
   color: #ffffff;
   background: radial-gradient(ellipse at top left, #000000 40%, #2c2c2c 90%);
+  position: fixed;
+  top: 0;
+  width: 100%;
 `;
 
 const Header = () => {
