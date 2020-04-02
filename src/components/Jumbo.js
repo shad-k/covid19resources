@@ -57,7 +57,7 @@ const Jumbo = () => {
       });
   }, []);
   return (
-    <Main>
+    <Main id="jumbo">
       <p>
         There are{" "}
         <NumberWithLoader loading={stats.loading} value={stats.confirmed} />{" "}

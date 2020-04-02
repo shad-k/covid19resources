@@ -1,12 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-import { debounce } from "../utils";
+import { throttle } from "../utils";
 
 const Main = styled.div`
   height: 50px;
   background-color: #ffffff;
   overflow-x: auto;
+
+  &.tab-fixed {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+  }
 
   ul {
     display: flex;
@@ -53,7 +59,6 @@ class Tabs extends React.Component {
     super(props);
 
     this.state = {
-      tabFixed: false,
       currentHash: window.location.hash.replace("#", "")
     };
   }
@@ -62,19 +67,17 @@ class Tabs extends React.Component {
     window.addEventListener("scroll", this.scrollHandler);
   }
 
-  scrollHandler = debounce(event => {
-    const tabsElem = document.getElementById("tabs");
-    const { tabFixed } = this.state;
-    if (window.pageYOffset > tabsElem.offsetTop - 20) {
-      this.setState({
-        tabFixed: true
-      });
-    } else if (tabFixed) {
-      this.setState({
-        tabFixed: false
-      });
+  scrollHandler = throttle(event => {
+    const jumboElem = document.getElementById("jumbo");
+    const threshold = jumboElem.offsetTop + jumboElem.offsetHeight - 20;
+    if (window.pageYOffset > threshold) {
+      document.getElementById("tabs").classList.add("tab-fixed");
+    } else if (
+      document.getElementById("tabs").classList.contains("tab-fixed")
+    ) {
+      document.getElementById("tabs").classList.remove("tab-fixed");
     }
-  }, 200);
+  }, 100);
 
   clickHandler = event => {
     const hash = event.currentTarget.dataset.href;
