@@ -1,12 +1,16 @@
 import React from "react";
 
 import Jumbo from "./components/Jumbo";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <main>
-      <Jumbo />
-    </main>
+    <>
+      <Header />
+      <main>
+        <Jumbo />
+      </main>
+    </>
   );
 };
 

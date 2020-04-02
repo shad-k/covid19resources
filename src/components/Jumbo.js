@@ -9,8 +9,8 @@ const Main = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #000000;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   color: white;
   display: flex;
   flex-direction: column;
