@@ -7,6 +7,7 @@ const Main = styled.div`
   height: 50px;
   background-color: #ffffff;
   overflow-x: auto;
+  box-shadow: 0 2px 4px 0 #aaa;
 
   &.tab-fixed {
     position: fixed;
