@@ -12,8 +12,9 @@ const Trackers = () => {
         some.
       </p>
       <ol>
-        <li className="bold">
-          Covid19india.org: Tracking Indian cases statewise.{" "}
+        <li>
+          <span className="bold">Covid19india.org:</span> Tracking Indian cases
+          statewise.{" "}
           <a
             href="https://www.covid19india.org/"
             target="_blank"
@@ -23,8 +24,9 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Worldometers: Country-wise case statistics, fatality rate, etc.{" "}
+        <li>
+          <span className="bold">Worldometers:</span> Country-wise case
+          statistics, fatality rate, etc.{" "}
           <a
             href="https://www.worldometers.info/coronavirus/"
             target="_blank"
@@ -34,8 +36,9 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          World Health Organization (WHO): Statistics, graphs and heatmaps.{" "}
+        <li>
+          <span className="bold">World Health Organization (WHO):</span>{" "}
+          Statistics, graphs and heatmaps.{" "}
           <a
             href="https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"
             target="_blank"
@@ -45,8 +48,10 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Johns Hopkins University of Medicine Coronavirus Resource Centre:
+        <li>
+          <span className="bold">
+            Johns Hopkins University of Medicine Coronavirus Resource Centre:
+          </span>{" "}
           Country-wise case tracker.{" "}
           <a
             href="https://coronavirus.jhu.edu/map.html"
@@ -57,8 +62,9 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          World Economic Forum: Publications, videos, data, graphs.{" "}
+        <li>
+          <span className="bold">World Economic Forum:</span> Publications,
+          videos, data, graphs.{" "}
           <a
             href="https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=data"
             target="_blank"
@@ -68,8 +74,10 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Ministry of Health and Family Welfare, Government of India (MoHFW):
+        <li>
+          <span className="bold">
+            Ministry of Health and Family Welfare, Government of India (MoHFW):
+          </span>{" "}
           Latest official numbers from India.{" "}
           <a
             href="https://www.mohfw.gov.in/"
@@ -80,9 +88,11 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Indian Council for Medical Research (ICMR): State-wise distribution of
-          cases in India.{" "}
+        <li>
+          <span className="bold">
+            Indian Council for Medical Research (ICMR):
+          </span>{" "}
+          State-wise distribution of cases in India.{" "}
           <a
             href="http://covidindiaupdates.in/"
             target="_blank"
@@ -92,9 +102,11 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Centers for Disease Control and Prevention (CDC): State-wise situation
-          reports from the United States.{" "}
+        <li>
+          <span className="bold">
+            Centers for Disease Control and Prevention (CDC):
+          </span>{" "}
+          State-wise situation reports from the United States.{" "}
           <a
             href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html"
             target="_blank"
@@ -104,9 +116,11 @@ const Trackers = () => {
           </a>
         </li>
 
-        <li className="bold">
-          European Center for Disease Prevention and Control: Global and
-          European time trends.{" "}
+        <li>
+          <span className="bold">
+            European Center for Disease Prevention and Control:
+          </span>{" "}
+          Global and European time trends.{" "}
           <a
             href="https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html"
             target="_blank"

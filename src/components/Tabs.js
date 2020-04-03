@@ -40,10 +40,10 @@ const Main = styled.div`
         text-decoration: none;
         font-size: 18px;
         color: #2a2a2a;
-        font-weight: 600;
+        font-weight: 500;
 
         &.active {
-          background-color: #000000;
+          background-color: #ff4343;
           color: #ffffff;
         }
       }
@@ -91,7 +91,7 @@ class Tabs extends React.Component {
   render() {
     const tabs = [
       {
-        name: "FAQ",
+        name: "FAQs",
         hash: "faq"
       },
       {

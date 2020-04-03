@@ -11,8 +11,9 @@ const India = () => {
         section dedicated to India.
       </p>
       <ol>
-        <li className="bold">
-          Government of India: Posters, Videos of experts, Data.
+        <li>
+          <span className="bold">Government of India:</span> Posters, Videos of
+          experts, Data.
           <a
             href="https://www.mygov.in/covid-19/"
             target="_blank"
@@ -21,11 +22,13 @@ const India = () => {
             https://www.mygov.in/covid-19/
           </a>
         </li>
-        <li className="bold">
-          Indian Council for Medical Research (ICMR): Statewise updates, list of
-          dedicated testing laboratories, list of approved government
-          laboratories and private testing laboratories, technical documents,
-          etc.
+        <li>
+          <span className="bold">
+            Indian Council for Medical Research (ICMR):
+          </span>{" "}
+          Statewise updates, list of dedicated testing laboratories, list of
+          approved government laboratories and private testing laboratories,
+          technical documents, etc.
           <a
             href="https://icmr.nic.in/content/covid-19 /"
             target="_blank"
@@ -34,8 +37,8 @@ const India = () => {
             https://icmr.nic.in/content/covid-19 /
           </a>
         </li>
-        <li className="bold">
-          Indian Scientists’ Response to CoVid-19:
+        <li>
+          <span className="bold">Indian Scientists’ Response to CoVid-19:</span>{" "}
           <a
             href="https://indscicov.in/"
             target="_blank"
@@ -44,8 +47,9 @@ const India = () => {
             https://indscicov.in/
           </a>
         </li>
-        <li className="bold">
-          India Development Review: News, articles and analysis.
+        <li>
+          <span className="bold">India Development Review:</span> News, articles
+          and analysis.
           <a
             href="https://idronline.org/latest-news-and-updates-on-covid-19/"
             target="_blank"
@@ -54,8 +58,10 @@ const India = () => {
             https://idronline.org/latest-news-and-updates-on-covid-19/
           </a>
         </li>
-        <li className="bold">
-          Covid-19 Press Releases from Govt. of India:
+        <li>
+          <span className="bold">
+            Covid-19 Press Releases from Govt. of India:
+          </span>{" "}
           <a
             href="https://www.thehinducentre.com/resources/article31149551.ece"
             target="_blank"
@@ -65,8 +71,10 @@ const India = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Harvard T.H. Chan School of Public Health:
+        <li>
+          <span className="bold">
+            Harvard T.H. Chan School of Public Health:
+          </span>{" "}
           <a
             href="https://www.hsph.harvard.edu/india-center/covid-19/"
             target="_blank"
@@ -76,8 +84,8 @@ const India = () => {
           </a>
         </li>
 
-        <li className="bold">
-          WHO:
+        <li>
+          <span className="bold">WHO:</span>{" "}
           <a
             href="https://www.who.int/india/emergencies/novel-coronavirus-2019"
             target="_blank"
@@ -87,9 +95,9 @@ const India = () => {
           </a>
         </li>
 
-        <li className="bold">
-          Google Covid-19 Information & Resources: Latest updates in India,
-          FAQs, data, videos.
+        <li>
+          <span className="bold">Google Covid-19 Information & Resources:</span>{" "}
+          Latest updates in India, FAQs, data, videos.
           <a
             href="https://www.google.com/covid19/"
             target="_blank"

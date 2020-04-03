@@ -9,6 +9,7 @@ const Main = styled.header`
   top: 0;
   width: 100%;
   background: radial-gradient(ellipse at top left, #000000 40%, #2c2c2c 90%);
+  z-index: 2;
   a {
     font-size: 26px;
     color: #ffffff;

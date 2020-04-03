@@ -15,8 +15,8 @@ const MythBusters = () => {
         information are notable.
       </p>
       <ol>
-        <li className="bold">
-          World Health Organisation:
+        <li>
+          <span className="bold">World Health Organisation:</span>{" "}
           <a
             href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
             target="_blank"
@@ -25,8 +25,8 @@ const MythBusters = () => {
             https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters
           </a>
         </li>
-        <li className="bold">
-          Government of India:
+        <li>
+          <span className="bold">Government of India:</span>{" "}
           <a
             href="https://www.mygov.in/covid-19/"
             target="_blank"
@@ -35,8 +35,8 @@ const MythBusters = () => {
             https://www.mygov.in/covid-19/
           </a>
         </li>
-        <li className="bold">
-          Harvard T.H. School of Public Health:
+        <li>
+          <span className="bold">Harvard T.H. School of Public Health:</span>{" "}
           <a
             href="https://www.hsph.harvard.edu/india-center/myths-vs-facts/"
             target="_blank"
@@ -45,8 +45,8 @@ const MythBusters = () => {
             https://www.hsph.harvard.edu/india-center/myths-vs-facts/
           </a>
         </li>
-        <li className="bold">
-          Indian Scientists’ Response to CoVid-19:
+        <li>
+          <span className="bold">Indian Scientists’ Response to CoVid-19:</span>{" "}
           <a
             href="https://indscicov.in/index.php/busting-hoaxes/"
             target="_blank"

@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Main = styled.footer`
-  background: radial-gradient(ellipse at top left, #000000 40%, #2c2c2c 90%);
+  background-color: #ff4343;
   color: #ffffff;
   display: flex;
-  padding: 10px;
+  padding: 10px 40px;
   flex-direction: column;
   justify-content: center;
 
@@ -16,7 +16,7 @@ const Main = styled.footer`
 
   .section {
     margin: 5px 0;
-    font-size: 18px;
+    font-size: 16px;
 
     &.disclaimer {
       font-size: 14px;
@@ -39,7 +39,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="section">
-        Made by Shadab Khan:{" "}
+        Developed by Shadab Khan:{" "}
         <a
           href="https://github.com/shad-k"
           target="_blank"

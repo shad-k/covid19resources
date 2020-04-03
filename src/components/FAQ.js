@@ -5,7 +5,7 @@ import Section from "./Section";
 const FAQ = () => {
   return (
     <Section id="faq">
-      <h2>FAQ</h2>
+      <h2>FAQs</h2>
       <p>
         There are millions around the world who have never experienced such a
         deadly situation in their lives. Evidently, there are questions: How
