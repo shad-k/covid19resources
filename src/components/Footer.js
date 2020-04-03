@@ -21,6 +21,10 @@ const Main = styled.footer`
     &.disclaimer {
       font-size: 14px;
     }
+
+    a {
+      margin-left: 10px;
+    }
   }
 `;
 
@@ -36,6 +40,9 @@ const Footer = () => {
           className="link"
         >
           @hjkhan
+        </a>
+        <a className="link" href="mailto:hjkhan1963@yahoo.com">
+          hjkhan1963@yahoo.com
         </a>
       </div>
       <div className="section">
@@ -54,6 +61,19 @@ const Footer = () => {
         information resources pertaining to Covid-19 from around the world and
         in no way an acknowledgement of the authenticity of the information
         contained therein.
+      </div>
+
+      <div className="section disclaimer">
+        <strong>Image Credit</strong> CDC Science Photo Library: CDC/ Alissa
+        Eckert, MS; Dan Higgins, MAMS
+        <a
+          href="https://phil.cdc.gov/Details.aspx?pid=23311"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          https://phil.cdc.gov/Details.aspx?pid=23311
+        </a>
       </div>
     </Main>
   );

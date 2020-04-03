@@ -17,7 +17,7 @@ const Main = styled.section`
 
       a {
         text-decoration: none;
-        color: blue;
+        color: #ff4343;
       }
     }
   }

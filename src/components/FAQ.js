@@ -17,8 +17,8 @@ const FAQ = () => {
         that have answered these and many other queries.
       </p>
       <ol>
-        <li className="bold">
-          Government of India:{" "}
+        <li>
+          <span className="bold">Government of India:</span>{" "}
           <a
             href="https://www.mygov.in/covid-19/"
             target="_blank"
@@ -27,8 +27,8 @@ const FAQ = () => {
             https://www.mygov.in/covid-19/
           </a>
         </li>
-        <li className="bold">
-          Ministry of Health and Family Welfare:{" "}
+        <li>
+          <span className="bold">Ministry of Health and Family Welfare:</span>{" "}
           <a
             href="https://www.mohfw.gov.in/"
             target="_blank"
@@ -37,8 +37,8 @@ const FAQ = () => {
             https://www.mohfw.gov.in/
           </a>
         </li>
-        <li className="bold">
-          Indian Council of Medical Research:{" "}
+        <li>
+          <span className="bold">Indian Council of Medical Research:</span>{" "}
           <a
             href="https://www.icmr.nic.in/content/covid-19"
             target="_blank"
@@ -48,8 +48,8 @@ const FAQ = () => {
           </a>
         </li>
 
-        <li className="bold">
-          World Health Organisation:{" "}
+        <li>
+          <span className="bold">World Health Organisation:</span>{" "}
           <a
             href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
             target="_blank"
@@ -58,8 +58,10 @@ const FAQ = () => {
             https://www.who.int/emergencies/diseases/novel-coronavirus-2019
           </a>
         </li>
-        <li className="bold">
-          Harvard T.H. Chan School of Public Health:{" "}
+        <li>
+          <span className="bold">
+            Harvard T.H. Chan School of Public Health:
+          </span>{" "}
           <a
             href="https://www.hsph.harvard.edu/india-center/covid-19/"
             target="_blank"
@@ -68,8 +70,8 @@ const FAQ = () => {
             https://www.hsph.harvard.edu/india-center/covid-19/
           </a>
         </li>
-        <li className="bold">
-          World Economic Forum:{" "}
+        <li>
+          <span className="bold">World Economic Forum:</span>{" "}
           <a
             href="https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications"
             target="_blank"
@@ -78,8 +80,10 @@ const FAQ = () => {
             https://intelligence.weforum.org/topics/a1G0X000006O6EHUA0?tab=publications
           </a>
         </li>
-        <li className="bold">
-          Centers for Disease Control and Prevention:{" "}
+        <li>
+          <span className="bold">
+            Centers for Disease Control and Prevention:
+          </span>{" "}
           <a
             href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html"
             target="_blank"
@@ -88,8 +92,10 @@ const FAQ = () => {
             https://www.cdc.gov/coronavirus/2019-nCoV/index.html
           </a>
         </li>
-        <li className="bold">
-          Johns Hopkins University of Medicine Coronavirus Resource Centre:{" "}
+        <li>
+          <span className="bold">
+            Johns Hopkins University of Medicine Coronavirus Resource Centre:
+          </span>{" "}
           <a
             href="https://coronavirus.jhu.edu/covid-19-basics/faq"
             target="_blank"
