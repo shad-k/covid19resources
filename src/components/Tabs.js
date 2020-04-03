@@ -111,8 +111,8 @@ class Tabs extends React.Component {
         hash: "india"
       },
       {
-        name: "Other",
-        hash: "other"
+        name: "Posters & Videos",
+        hash: "posters-videos"
       }
     ];
     const { currentHash } = this.state;

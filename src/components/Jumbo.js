@@ -9,7 +9,6 @@ const Main = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #000000;
-  height: 100%;
   width: 100%;
   color: white;
   display: flex;
@@ -19,10 +18,18 @@ const Main = styled.div`
   font-size: 20px;
   padding: 0px 20px;
   text-align: center;
+  position: relative;
 
   @media screen and (min-width: 768px) {
     background-image: ${`url(${bg})`};
     background-size: cover;
+    justify-content: flex-start;
+    padding: 20px 160px;
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   }
 `;
 

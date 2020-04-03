@@ -3,8 +3,8 @@ import Section from "./Section";
 
 const Other = () => {
   return (
-    <Section id="other">
-      <h2>Other</h2>
+    <Section id="posters-videos">
+      <h2>Posters and Videos</h2>
       <ol>
         <li className="bold">
           Government of India:
